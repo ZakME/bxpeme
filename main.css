@@ -1,0 +1,46 @@
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: blanchedalmond;
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 40px auto;
+  border-radius: 0px;
+  margin-bottom: 78px;
+  left: 42.1%;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:link {
+  text-decoration: none;
+}
+
+a:active,
+a:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 111%;
+  max-width: 111%;
+}
+
+hr {
+  width: 150px;
+}
