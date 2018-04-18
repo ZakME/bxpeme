@@ -1,1 +1,1 @@
-$("#myVideo").prop("volume", 0.1);
+$("video").prop("volume", 0.1);
