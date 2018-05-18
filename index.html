@@ -63,12 +63,11 @@
 		disableWheelScroll();
 
 	</script>
-	<div id="star" class="video mask overlay">
-		<i class="fas fa-volume-up volume-button "></i>
-		<i class="stop-button fas fa-pause"></i>
-		<div class="video-fallback"></div>
-		<iframe src="videos/marreta.mp4" frameborder="0" allowfullscreen></iframe>
-</video>
+	<div class="video-background">
+    <div class="video-foreground">
+        <iframe src="videos/marreta.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
 		<script>
 			setTimeout(function() {
 				document.getElementById("video").play();
