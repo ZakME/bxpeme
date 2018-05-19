@@ -19,7 +19,7 @@ $(function () {
 	}
 	window.setInterval(doInverseSpinZeroPitch, 250);
 	var tKillNames = ["t.w2 bape"];
-	var ctKillNames = ["GETZE.US", "INIURIA.US", "MUTINY.PW", "AIMWARE.NET", "SKEET.CC", "1TAP.CC", "DEEF.PW", "TRIPPN.PW"];
+	var ctKillNames = ["MOZZA STICK NICK", "TYLX7"];
 	var weapons = ["deagle", "ssg", "ak47", "g3sg1"];
 	var $killFeedContainer = $('.kill-feed');
 	var $killFeedElement = $('.kill-feed > div').hide();
