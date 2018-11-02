@@ -4,8 +4,6 @@
 // SETUP FUNCTION - Runs once at beginning of program
 let angle = 0;
 
-let alien;
-
 let graphics;
 
 let love;
@@ -49,6 +47,3 @@ function draw() {
 
 }
 
-function preload() {
-	alien = loadImage('alien.png');
-}
