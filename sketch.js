@@ -22,7 +22,7 @@ function setup() {
 	love.fill(255);
 	love.textAlign(CENTER);
 	love.textSize(64);
-	love.text('yoink', 150, 150);
+	love.text('ohgeesy', 170, 170);
 }
 
 function draw() {
