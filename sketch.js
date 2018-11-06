@@ -32,7 +32,7 @@ function draw() {
 	directionalLight(255, 255, 255, 0, 0, 1);
 	rotateX(angle);
 	rotateY(angle * 1.3);
-	rotateZ(angle * 0.7);
+	rotateZ(angle * 0.71);
 
 	texture(love);
 	box(100);
