@@ -1,6 +1,6 @@
 // TOP DOWN PLAYER
 
-// Declare Global Variables
+// Declare Globl Variables
 // SETUP FUNCTION - Runs once at beginning of program
 let angle = 0;
 
