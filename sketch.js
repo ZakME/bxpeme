@@ -33,7 +33,7 @@ function draw() {
 	rotateX(angle);
 	rotateY(angle * 1.3);
 	rotateZ(angle * 0.71);
-
+	specularMaterial(250);
 	texture(love);
 	box(100);
 
