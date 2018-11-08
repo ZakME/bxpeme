@@ -29,7 +29,10 @@ function draw() {
 	// graphics.fill(255, 0, 255);
 	// graphics.ellipse(mouseX, mouseY, 20);
 	//   ambientLight(100);
-	directionalLight(255, 255, 255, 0, 0, 1);
+	ambientLight(50);
+  	directionalLight(200, 0, 0, 0.25, 0.25, 0.25);
+  	pointLight(0, 0, 200, locX, locY, 0);
+  	pointLight(200, 200, 0, -locX, -locY, 0);
 	rotateX(angle);
 	rotateY(angle * 1.3);
 	rotateZ(angle * 0.71);
