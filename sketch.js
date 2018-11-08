@@ -25,7 +25,8 @@ function setup() {
 
 function draw() {
 	background(0);
-
+	var locY = (mouseY / height - 0.5) * (-2);
+  	var locX = (mouseX / width - 0.5) * 2;
 	// graphics.fill(255, 0, 255);
 	// graphics.ellipse(mouseX, mouseY, 20);
 	//   ambientLight(100);
