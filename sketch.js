@@ -20,7 +20,7 @@ function setup() {
 	love.fill(255);
 	love.textAlign(CENTER);
 	love.textSize(64);
-	love.text('ohgeesy', 170, 170);
+	love.text('zak <3', 170, 170);
 }
 
 function draw() {
